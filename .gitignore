@@ -1,0 +1,22 @@
+# 로컬 작업 파일
+resources/
+reference/
+scripts/
+
+# 실행 환경
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# 실습 중에 만들어지는 파일
+data/*.pkl
+image/
+
+# 환경 준비 배포 패키지 원본 (zip만 올림)
+setup/stat_ml/
+
+# macOS
+.DS_Store
+
+# 강의안 PDF (저장소에 올리지 않음)
+note/
